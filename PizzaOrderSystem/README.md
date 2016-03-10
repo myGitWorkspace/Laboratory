@@ -1,11 +1,14 @@
-# # Instructions to run the application
+## Instructions to run the application
 
 1) Use your PostgreSQL database server to create database=pizza_order_system, user=pizza_user with password=123456 or you can make custom database settings by editing /src/main/resources/jdbc.properties file
+
 2) Run sql scripts ( location=/script/pizza_order_system_db.sql ) on your PostgreSQL database server to create all required tables for application
+
 3) go to the root folder with the application's source code and run maven command - mvn tomcat7:run
+
 4) Open your web browser and enter the target url http://localhost:8080/PizzaOrderSystem
 
-# # Pizza Order System application details
+## Pizza Order System application details
 
 The application provides a web interface to create pizzas' orders. For unregistered users top menu provides links to the login page and to the registration page. Also any time you can switch current language of application from English into Russian and vice versa.
 
